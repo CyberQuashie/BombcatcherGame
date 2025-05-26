@@ -1,0 +1,17 @@
+/* Example: 10x10 grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 40px); /* 10 squares wide */
+  grid-template-rows: repeat(10, 40px); /* 10 squares tall */
+  gap: 2px;
+  margin: 20px auto;
+  width: max-content;
+}
+
+.square {
+  width: 40px;
+  height: 40px;
+  background-color: #ddd;
+  border: 1px solid #aaa;
+  box-sizing: border-box;
+}
